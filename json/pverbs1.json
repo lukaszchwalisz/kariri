@@ -1,106 +1,106 @@
 {
-	"base": "phrasal verbs 1",
-	"words" :   [
+	"lib": "phrasal verbs 1",
+	"docs" :   [
 				{
-					"pl" : "wychować",
-					"eng": "bring up",
-					"zdn": "She was brought up to respect other people."
+					"ph1" : "wychować",
+					"ph2": "bring up",
+					"ph3": "She was brought up to respect other people."
 				},
 				{
-					"pl" : "sprawdzać",
-					"eng": "check up",
-					"zdn": "I hate when he checks up on me to be sure that I go where I tell him."
+					"ph1" : "sprawdzać",
+					"ph2": "check up",
+					"ph3": "I hate when he checks up on me to be sure that I go where I tell him."
 				},
 				{
-					"pl" : "rozweselić",
-					"eng": "cheer up",
-					"zdn": "She went to the hairdresser to cheer herself up after the test."
+					"ph1" : "rozweselić",
+					"ph2": "cheer up",
+					"ph3": "She went to the hairdresser to cheer herself up after the test."
 				},
 				{
-					"pl" : "przejaśniać się/przechodzić",
-					"eng": "clear up",
-					"zdn": "The weather's clearing up."
+					"ph1" : "przejaśniać się/przechodzić",
+					"ph2": "clear up",
+					"ph3": "The weather's clearing up."
 				},
 				{
-					"pl" : "zdarzać się",
-					"eng": "come about",
-					"zdn": "How all this things come about in his company."
+					"ph1" : "zdarzać się",
+					"ph2": "come about",
+					"ph3": "How all this things come about in his company."
 				},
 				{
-					"pl" : "sprawiać wrażenie",
-					"eng": "come across",
-					"zdn": "John came across as being an extremely shy person."
+					"ph1" : "sprawiać wrażenie",
+					"ph2": "come across",
+					"ph3": "John came across as being an extremely shy person."
 				},
 				{
-					"pl" : "rozpadać się",
-					"eng": "come apart",
-					"zdn": "Wee need a new bed, the old one is coming apart."
+					"ph1" : "rozpadać się",
+					"ph2": "come apart",
+					"ph3": "Wee need a new bed, the old one is coming apart."
 				},
 				{
-					"pl" : "odzyskać przytomność",
-					"eng": "come around",
-					"zdn": "The police officer waited till she came round to ask her some questions."
+					"ph1" : "odzyskać przytomność",
+					"ph2": "come around",
+					"ph3": "The police officer waited till she came round to ask her some questions."
 				},
 				{
-					"pl" : "wyskakiwać z czymś",
-					"eng": "come out",
-					"zdn": "The iiiićZZirst issue of this newspaper come out in 1956."
+					"ph1" : "wyskakiwać z czymś",
+					"ph2": "come out",
+					"ph3": "The iiiićZZirst issue of this newspaper come out in 1956."
 				},
 				{
-					"pl" : "zajechać drogę/wtargnąć",
-					"eng": "cut in",
-					"zdn": "The car suddenly cut in in front of him."
+					"ph1" : "zajechać drogę/wtargnąć",
+					"ph2": "cut in",
+					"ph3": "The car suddenly cut in in front of him."
 				},
 				{
-					"pl" : "pozbawiać czegoś",
-					"eng": "deprive of",
-					"zdn": "Living in the country will deprive you of all the nightlife you like so much."
+					"ph1" : "pozbawiać czegoś",
+					"ph2": "deprive of",
+					"ph3": "Living in the country will deprive you of all the nightlife you like so much."
 				},
 				{
-					"pl" : "zanikać (w okresie czasu)",
-					"eng": "die away",
-					"zdn": "Her voice gradually died away and there was silence again."
+					"ph1" : "zanikać (w okresie czasu)",
+					"ph2": "die away",
+					"ph3": "Her voice gradually died away and there was silence again."
 				},
 				{
-					"pl" : "dokopać się do informacji",
-					"eng": "dig out",
-					"zdn": "I spent hours in the library but finally I dug out everything I needed."
+					"ph1" : "dokopać się do informacji",
+					"ph2": "dig out",
+					"ph3": "I spent hours in the library but finally I dug out everything I needed."
 				},
 
 				{
-					"pl" : "odwlec/odciągnąć",
-					"eng": "drag away",
-					"zdn": "Drag him away from the TV somehow"
+					"ph1" : "odwlec/odciągnąć",
+					"ph2": "drag away",
+					"ph3": "Drag him away from the TV somehow"
 				},
 				{
-					"pl" : "rozpamiętywać",
-					"eng": "dwell on",
-					"zdn": "Stop dwelling on your past mistakes."
+					"ph1" : "rozpamiętywać",
+					"ph2": "dwell on",
+					"ph3": "Stop dwelling on your past mistakes."
 				},
 				{
-					"pl" : "zagłębiać",
-					"eng": "enter into",
-					"zdn": "He doesn't want to enter into details at the moment."
+					"ph1" : "zagłębiać",
+					"ph2": "enter into",
+					"ph3": "He doesn't want to enter into details at the moment."
 				},
 				{
-					"pl" : "zerwać znajomość",
-					"eng": "fall out",
-					"zdn": "I haven't seen him since we fell out last week."
+					"ph1" : "zerwać znajomość",
+					"ph2": "fall out",
+					"ph3": "I haven't seen him since we fell out last week."
 				},
 				{
-					"pl" : "składać",
-					"eng": "fold up",
-					"zdn": "You can fold the map up -  I know where we are."
+					"ph1" : "składać",
+					"ph2": "fold up",
+					"ph3": "You can fold the map up -  I know where we are."
 				},
 				{
-					"pl" : "wygłupiać się",
-					"eng": "fool around",
-					"zdn": "Stop fooling around with the knife."
+					"ph1" : "wygłupiać się",
+					"ph2": "fool around",
+					"ph3": "Stop fooling around with the knife."
 				},					
 				{
-					"pl" : "uciec",
-					"eng": "get away",
-					"zdn": "I thought I would never get away fromt hat boring guy."
+					"ph1" : "uciec",
+					"ph2": "get away",
+					"ph3": "I thought I would never get away fromt hat boring guy."
 				}					
             ]
 }

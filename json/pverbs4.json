@@ -1,107 +1,107 @@
 {
-	"base": "phrasal verbs 4",
-	"words" : [
+	"lib": "phrasal verbs 4",
+	"docs" : [
 				{  
 				
-					"pl" : "podgrzać dyskusję",
-					"eng": "heat up",
-					"zdn": "His rude answer heated up the discussion."
+					"ph1": "podgrzać dyskusję",
+					"ph2": "heat up",
+					"ph3": "His rude answer heated up the discussion."
 				},
 				{
-					"pl" : "powstrzymać, zatrzymać",
-					"eng": "hold back",
-					"zdn": "Bodyguards had to hold back the crowd as Madonna stepped out of the car."
+					"ph1": "powstrzymać, zatrzymać",
+					"ph2": "hold back",
+					"ph3": "Bodyguards had to hold back the crowd as Madonna stepped out of the car."
 				},
 				{
-					"pl" : "czekać chwilę",
-					"eng": "hold on",
-					"zdn": "Hold on a second, I'm almost ready."
+					"ph1": "czekać chwilę",
+					"ph2": "hold on",
+					"ph3": "Hold on a second, I'm almost ready."
 				},
 				{
-					"pl" : "opóźniać",
-					"eng": "hold up",
-					"zdn": "The flight to London was held up due to bad weather conditions."
+					"ph1": "opóźniać",
+					"ph2": "hold up",
+					"ph3": "The flight to London was held up due to bad weather conditions."
 				},
 				{
-					"pl" : "podłączyć",
-					"eng": "hook up",
-					"zdn": "Have you hooked up to the Internet yet?"
+					"ph1": "podłączyć",
+					"ph2": "hook up",
+					"ph3": "Have you hooked up to the Internet yet?"
 				},
 				{
-					"pl" : "pospieczyć się",
-					"eng": "hurry up",
-					"zdn": "Hurry up! We have to be there at 5."
+					"ph1": "pospieczyć się",
+					"ph2": "hurry up",
+					"ph3": "Hurry up! We have to be there at 5."
 				},
 				{
-					"pl" : "wyciszyć sprawę",
-					"eng": "hush up",
-					"zdn": "The government will do anything to hush it up as one of the ministers was involved in the case."
+					"ph1": "wyciszyć sprawę",
+					"ph2": "hush up",
+					"ph3": "The government will do anything to hush it up as one of the ministers was involved in the case."
 				},
 				{
-					"pl" : "pochłaniać, zagłębiać się",
-					"eng": "immerse in",
-					"zdn": "After having her first baby, she was totally immersed in family life."
+					"ph1": "pochłaniać, zagłębiać się",
+					"ph2": "immerse in",
+					"ph3": "After having her first baby, she was totally immersed in family life."
 				},
 				{
-					"pl" : "narzucać coś",
-					"eng": "impose sth on/upon",
-					"zdn": "Spanish invaders imposed their culture and beliefs on native Americans."
+					"ph1": "narzucać coś",
+					"ph2": "impose sth on/upon",
+					"ph3": "Spanish invaders imposed their culture and beliefs on native Americans."
 				},
 				{
-					"pl" : "wypytywać o coś/badać/dochodzić",
-					"eng": "inquire into",
-					"zdn": "The judge wants the deputy to inquire into the case in greater detail."
+					"ph1": "wypytywać o coś/badać/dochodzić",
+					"ph2": "inquire into",
+					"ph3": "The judge wants the deputy to inquire into the case in greater detail."
 				},
 				{
-					"pl" : "domagać się/upierać się",
-					"eng": "insist on/upon",
-					"zdn": "Lucy insisted on seeing her lawyer before giving any answers to officer's questions."
+					"ph1": "domagać się/upierać się",
+					"ph2": "insist on/upon",
+					"ph3": "Lucy insisted on seeing her lawyer before giving any answers to officer's questions."
 				},
 				{
-					"pl" : "zakłócać coś",
-					"eng": "interfere with",
-					"zdn": "I don't want my kids to interfere with any electrical stuff that we have at home."
+					"ph1": "zakłócać coś",
+					"ph2": "interfere with",
+					"ph3": "I don't want my kids to interfere with any electrical stuff that we have at home."
 				},
 				{
-					"pl" : "kontynuować/robić coś bez przerwy",
-					"eng": "keep on",
-					"zdn": "Why you always keep on asking me about Mark? I don't want to talk about him!"
+					"ph1": "kontynuować/robić coś bez przerwy",
+					"ph2": "keep on",
+					"ph3": "Why you always keep on asking me about Mark? I don't want to talk about him!"
 				},
 
 				{
-					"pl" : "nadążać, byc na bieżąco",
-					"eng": "keep up with",
-					"zdn": "I can't keep up with computers, it's all changing too fast for me."
+					"ph1": "nadążać, byc na bieżąco",
+					"ph2": "keep up with",
+					"ph3": "I can't keep up with computers, it's all changing too fast for me."
 				},
 				{
-					"pl" : "potrącić",
-					"eng": "knock down",
-					"zdn": "She is in hospital after being knocked down by a car."
+					"ph1": "potrącić",
+					"ph2": "knock down",
+					"ph3": "She is in hospital after being knocked down by a car."
 				},
 				{
-					"pl" : "zwalać z nóg",
-					"eng": "knock out",
-					"zdn": "All these drinks yesterday just knocked me out."
+					"ph1": "zwalać z nóg",
+					"ph2": "knock out",
+					"ph3": "All these drinks yesterday just knocked me out."
 				},
 				{
-					"pl" : "zwalniać",
-					"eng": "lay off",
-					"zdn": "Many people working in this factory were laid off without previous notice."
+					"ph1": "zwalniać",
+					"ph2": "lay off",
+					"ph3": "Many people working in this factory were laid off without previous notice."
 				},
 				{
-					"pl" : "opuszczać/pomijać",
-					"eng": "leave out",
-					"zdn": "Prepare the list carefully, I don't want anyone to be left out."
+					"ph1": "opuszczać/pomijać",
+					"ph2": "leave out",
+					"ph3": "Prepare the list carefully, I don't want anyone to be left out."
 				},
 				{
-					"pl" : "zawodzić",
-					"eng": "let down",
-					"zdn": "You let me down again, I can't trust you any more."
+					"ph1": "zawodzić",
+					"ph2": "let down",
+					"ph3": "You let me down again, I can't trust you any more."
 				},					
 				{
-					"pl" : "wypuszczać/pozwolić iść",
-					"eng": "let out",
-					"zdn": "The classes finished earlier but we were not let out before 3 o'clock."
+					"ph1": "wypuszczać/pozwolić iść",
+					"ph2": "let out",
+					"ph3": "The classes finished earlier but we were not let out before 3 o'clock."
 				}
 			]
 }

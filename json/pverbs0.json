@@ -1,106 +1,106 @@
 {
-	"base": "phrasal verbs 0",
-	"words" :   [
+	"lib": "phrasal verbs 0",
+	"docs" :   [
 				{
-					"pl" : "wskazane,skierowane dla kogoś/czegoś",
-					"eng": "aim at",
-					"zdn": "Most of his books are aimed at teenager readers."
+					"ph1": "wskazane,skierowane dla kogoś/czegoś",
+					"ph2": "aim at",
+					"ph3": "Most of his books are aimed at teenager readers."
 				},
 				{
-					"pl" : "ręczyć za",
-					"eng": "answer for",
-					"zdn": "I can answer for her qualifications in the field."
+					"ph1": "ręczyć za",
+					"ph2": "answer for",
+					"ph3": "I can answer for her qualifications in the field."
 				},
 				{
-					"pl" : "pyskować",
-					"eng": "answer back",
-					"zdn": "How dare you answer back like that?!"
+					"ph1": "pyskować",
+					"ph2": "answer back",
+					"ph3": "How dare you answer back like that?!"
 				},
 				{
-					"pl" : "zaprosić kogoś",
-					"eng": "ask out",
-					"zdn": "Ask her out and then you will know if she likes you or not!"
+					"ph1": "zaprosić kogoś",
+					"ph2": "ask out",
+					"ph3": "Ask her out and then you will know if she likes you or not!"
 				},
 				{
-					"pl" : "wycofać się",
-					"eng": "back out",
-					"zdn": "Make them sign the agreement so that they would not back out from the project."
+					"ph1": "wycofać się",
+					"ph2": "back out",
+					"ph3": "Make them sign the agreement so that they would not back out from the project."
 				},
 				{
-					"pl" : "liczyć na coś",
-					"eng": "bank on",
-					"zdn": "Tom is very disappointed as he banked on the pay rise and finally he didn't get it."
+					"ph1": "liczyć na coś",
+					"ph2": "bank on",
+					"ph3": "Tom is very disappointed as he banked on the pay rise and finally he didn't get it."
 				},
 				{
-					"pl" : "wyłamać się",
-					"eng": "break away",
-					"zdn": "He wanted to break away from the traditional image of an artist."
+					"ph1": "wyłamać się",
+					"ph2": "break away",
+					"ph3": "He wanted to break away from the traditional image of an artist."
 				},
 				{
-					"pl" : "zepsuć się, załamać się",
-					"eng": "break down",
-					"zdn": "The car broke down after few miles.."
+					"ph1": "zepsuć się, załamać się",
+					"ph2": "break down",
+					"ph3": "The car broke down after few miles.."
 				},
 				{
-					"pl" : "przywrócić",
-					"eng": "bring back",
-					"zdn": "The photos we watched together brought back a lot of memories."
+					"ph1": "przywrócić",
+					"ph2": "bring back",
+					"ph3": "The photos we watched together brought back a lot of memories."
 				},
 				{
-					"pl" : "obalić",
-					"eng": "bring down",
-					"zdn": "The present acute crisis in economy may bring the government down."
+					"ph1": "obalić",
+					"ph2": "bring down",
+					"ph3": "The present acute crisis in economy may bring the government down."
 				},
 				{
-					"pl" : "pochylić",
-					"eng": "bend down",
-					"zdn": "Johnny! Bend down and do your shoelaces."
+					"ph1": "pochylić",
+					"ph2": "bend down",
+					"ph3": "Johnny! Bend down and do your shoelaces."
 				},
 				{
-					"pl" : "zignorować",
-					"eng": "brush aside",
-					"zdn": "He brushed aside his advisor's ideas and consequently lost the campaign."
+					"ph1": "zignorować",
+					"ph2": "brush aside",
+					"ph3": "He brushed aside his advisor's ideas and consequently lost the campaign."
 				},
 				{
-					"pl" : "wtargnąć",
-					"eng": "burst in",
-					"zdn": "The crowd burst in the palace and started the plunder."
+					"ph1": "wtargnąć",
+					"ph2": "burst in",
+					"ph3": "The crowd burst in the palace and started the plunder."
 				},
 
 				{
-					"pl" : "wpaść do kogoś",
-					"eng": "call in",
-					"zdn": "Call in for a cup of coffee when you are in town."
+					"ph1": "wpaść do kogoś",
+					"ph2": "call in",
+					"ph3": "Call in for a cup of coffee when you are in town."
 				},
 				{
-					"pl" : "odwołać",
-					"eng": "call off",
-					"zdn": "They had to call the meeting off because their partners asked for more time."
+					"ph1": "odwołać",
+					"ph2": "call off",
+					"ph3": "They had to call the meeting off because their partners asked for more time."
 				},
 				{
-					"pl" : "opiekować się",
-					"eng": "care for",
-					"zdn": "She cares for her younger sister."
+					"ph1": "opiekować się",
+					"ph2": "care for",
+					"ph3": "She cares for her younger sister."
 				},
 				{
-					"pl" : "kontynuować",
-					"eng": "carry on",
-					"zdn": "The light went out but the surgeon insisted on carrying on with the operation."
+					"ph1": "kontynuować",
+					"ph2": "carry on",
+					"ph3": "The light went out but the surgeon insisted on carrying on with the operation."
 				},
 				{
-					"pl" : "zrealizować",
-					"eng": "carry out",
-					"zdn": "I hope she will carry out her research as it may be a real breakthrough."
+					"ph1": "zrealizować",
+					"ph2": "carry out",
+					"ph3": "I hope she will carry out her research as it may be a real breakthrough."
 				},
 				{
-					"pl" : "dogonić",
-					"eng": "catch up",
-					"zdn": "You will have to work harder in order to catch up with the rest of the team."
+					"ph1": "dogonić",
+					"ph2": "catch up",
+					"ph3": "You will have to work harder in order to catch up with the rest of the team."
 				},					
 				{
-					"pl" : "zrzucić się",
-					"eng": "chip in",
-					"zdn": "We all chipped in for our parents' present."
+					"ph1": "zrzucić się",
+					"ph2": "chip in",
+					"ph3": "We all chipped in for our parents' present."
 				}
 	        ]
 }

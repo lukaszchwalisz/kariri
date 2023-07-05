@@ -2,59 +2,59 @@
     "lib": "mechanizmy obronne",
 	"docs": [
 		{
-			"ph1" : "wyparcie",
+			"ph1": "wyparcie",
 			"ph2": "repression"
 		},
 		{
-			"ph1" : "kompensacja",
+			"ph1": "kompensacja",
 			"ph2": "compensation"
 		},
 		{
-			"ph1" : "dekompensacja",
+			"ph1": "dekompensacja",
 			"ph2": "decompensation"
 		},
 		{
-			"ph1" : "przeniesienie",
+			"ph1": "przeniesienie",
 			"ph2": "transference"
 		},
 		{
-			"ph1" : "przeciwprzeniesienie",
+			"ph1": "przeciwprzeniesienie",
 			"ph2": "countertransference"
 		},
 		{
-			"ph1" : "projekcja",
+			"ph1": "projekcja",
 			"ph2": "projection"
 		},
 		{
-			"ph1" : "przemieszczenie",
+			"ph1": "przemieszczenie",
 			"ph2": "displacement"
 		},	
 		{
-			"ph1" : "racjonalizacja",
+			"ph1": "racjonalizacja",
 			"ph2": "rationalisation"
 		},
 		{	
-			"ph1" : "regresja",
+			"ph1": "regresja",
 			"ph2": "regression"
 		},
 		{
-			"ph1" : "intelektualizacja",
+			"ph1": "intelektualizacja",
 			"ph2": "intelectualisation"
 		},
 		{
-			"ph1" : "sublimacja",
+			"ph1": "sublimacja",
 			"ph2": "sublimation"
 		},
 		{
-			"ph1" : "reakcja upozorowana",
+			"ph1": "reakcja upozorowana",
 			"ph2": "reaction formation"
 		},
 		{
-			"ph1" : "rozszczepienie",
+			"ph1": "rozszczepienie",
 			"ph2": "splitting out"
 		},
 		{
-			"ph1" : "zaprzeczenie",
+			"ph1": "zaprzeczenie",
 			"ph2": "denial"
 		}
 		]

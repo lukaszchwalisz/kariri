@@ -1,75 +1,75 @@
 {
-	"base": "phrasal verbs 3",
-	"words" :  [
+	"lib": "phrasal verbs 3",
+	"docs" :  [
 				{  
-					"pl" : "oddawać",
-					"eng": "give back",
-					"zdn": "Please give me back my CDs."
+					"ph1": "oddawać",
+					"ph2": "give back",
+					"ph3": "Please give me back my CDs."
 				},
 				{  				
-					"pl" : "rozpoczynać",
-					"eng": "go ahead",
-					"zdn": "We can't go ahead with the project without him."
+					"ph1": "rozpoczynać",
+					"ph2": "go ahead",
+					"ph3": "We can't go ahead with the project without him."
 				},
 				{  	
-					"pl" : "upływać (czas)",
-					"eng": "go by",
-					"zdn": "As time went by, her fear grew more and more."
+					"ph1": "upływać (czas)",
+					"ph2": "go by",
+					"ph3": "As time went by, her fear grew more and more."
 				},
 				{  					
-					"pl" : "kontynuować, trwać",
-					"eng": "go on",
-					"zdn": "Sorry for the interruption, please go on."
+					"ph1": "kontynuować, trwać",
+					"ph2": "go on",
+					"ph3": "Sorry for the interruption, please go on."
 				},
 				{  
-					"pl" : "przechodzić przez coś, cierpieć",
-					"eng": "go through sth",
-					"zdn": "During her marriage she went through hell with her husband."
+					"ph1": "przechodzić przez coś, cierpieć",
+					"ph2": "go through sth",
+					"ph3": "During her marriage she went through hell with her husband."
 				},
 				{  	
-					"pl" : "pasować do siebie",
-					"eng": "go together",
-					"zdn": "In my opinion the dark shirt and this tie go together perfectly."
+					"ph1": "pasować do siebie",
+					"ph2": "go together",
+					"ph3": "In my opinion the dark shirt and this tie go together perfectly."
 				},
 				{  				
-					"pl" : "plajtować",
-					"eng": "go under",
-					"zdn": "In my opinion the dark shirt and this tie go together perfectly."
+					"ph1": "plajtować",
+					"ph2": "go under",
+					"ph3": "In my opinion the dark shirt and this tie go together perfectly."
 				},
 				{  				
-					"pl" : "zostawać z tyłu",
-					"eng": "fall behind",
-					"zdn": "The horse started the race quite promising but then fell behind on the last bend."
+					"ph1": "zostawać z tyłu",
+					"ph2": "fall behind",
+					"ph3": "The horse started the race quite promising but then fell behind on the last bend."
 				},
 				{  
-					"pl" : "zerwać znajomość",
-					"eng": "fall out",
-					"zdn": "I haven't seen him since we fell out last week. And I don't think I want to..."
+					"ph1": "zerwać znajomość",
+					"ph2": "fall out",
+					"ph3": "I haven't seen him since we fell out last week. And I don't think I want to..."
 				},
 				{  
-					"pl" : "poddawać się komuś,czemuś",
-					"eng": "give into sb",
-					"zdn": "She gave into despair and refused to take medicine."
+					"ph1": "poddawać się komuś,czemuś",
+					"ph2": "give into sb",
+					"ph3": "She gave into despair and refused to take medicine."
 				},
 				{  
-					"pl" : "rozpoczynać",
-					"eng": "go ahead",
-					"zdn": "We can't go ahead with the project without him."
+					"ph1": "rozpoczynać",
+					"ph2": "go ahead",
+					"ph3": "We can't go ahead with the project without him."
 				},
 				{  					
-					"pl" : "wydawać, wręczać",
-					"eng": "hand out",
-					"zdn": "My job is to stand on the pavement and hand out leaflets to people."
+					"ph1": "wydawać, wręczać",
+					"ph2": "hand out",
+					"ph3": "My job is to stand on the pavement and hand out leaflets to people."
 				},
 				{  		
-					"pl" : "spędzać czas",
-					"eng": "hang out",
-					"zdn": "In summer a lot of young people hang out here."
+					"ph1": "spędzać czas",
+					"ph2": "hang out",
+					"ph3": "In summer a lot of young people hang out here."
 				},
 				{  				
-					"pl" : "zmierzać do",
-					"eng": "head for",
-					"zdn": "The troops were heading for the capital city."
+					"ph1": "zmierzać do",
+					"ph2": "head for",
+					"ph3": "The troops were heading for the capital city."
 				}				
 			]
 }
