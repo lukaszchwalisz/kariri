@@ -52,15 +52,15 @@ func lista() {
 }
 
 // Struktura danych z JSON
-type Users struct {
-	Baza  string `json:"base"`
-	Users []User `json:"words"`
+type Docs struct {
+	Lib  string `json:"lib"`
+	Docs []Doc  `json:"docs"`
 }
 
-type User struct {
-	PL  string `json:"pl"`
-	ENG string `json:"eng"`
-	ZDN string `json:"zdn"`
+type Doc struct {
+	Ph1 string `json:"ph1"`
+	Ph2 string `json:"ph2"`
+	Ph3 string `json:"ph3"`
 }
 
 func main() {
@@ -85,7 +85,7 @@ func main() {
 
 		byteValue, _ := ioutil.ReadAll(jsonFile)
 
-		var users Users
+		var docs Docs
 
 		var (
 			o int
@@ -95,12 +95,12 @@ func main() {
 
 		// Losowanie, mieszanie :)
 		r := rand.New(rand.NewSource(time.Now().Unix()))
-		json.Unmarshal(byteValue, &users)
+		json.Unmarshal(byteValue, &docs)
 
 		// START PROGRAMU: KARIRI
 		for {
 
-			j = r.Perm(len(users.Users))
+			j = r.Perm(len(docs.Docs))
 
 			if len(j) == 0 {
 				fmt.Println(string("\033[31m"), "\n   Prawdopodobnie nazwa bazy danych lub katalogu nie została wprowadzona poprawnie.", string("\033[0m"))
@@ -108,7 +108,7 @@ func main() {
 			} else {
 				CallClear()
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), "Biblioteka: ", string("\033[0m")+users.Baza)
+				fmt.Println(string("\033[32m"), "Biblioteka: ", string("\033[0m")+docs.Lib)
 				fmt.Print(string("\033[32m"), " "+"Liczba słów: ", string("\033[0m"))
 				fmt.Printf("%v \n\n", len(j))
 			}
@@ -137,24 +137,24 @@ func main() {
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
 				fmt.Println(string("\033[32m"), ".::Sprawdź swoją wiedzę. Zobacz słowa, które sprawiają problemy. Powtórz raz jeszcze.::.\n", string("\033[0m"))
 
-				j = r.Perm(len(users.Users))
+				j = r.Perm(len(docs.Docs))
 
 				for i := 0; i < len(j); i++ {
 
-					fmt.Print(string(" \033[37m"), users.Users[j[i]].PL+string("\033[36m"), " --> ")
+					fmt.Print(string(" \033[37m"), docs.Docs[j[i]].Ph1+string("\033[36m"), " --> ")
 					reader := bufio.NewReader(os.Stdin)
 					odp, _ := reader.ReadString('\n')
 					odp = strings.TrimSuffix(odp, "\n")
 					if err != nil {
 						fmt.Println(err)
 					}
-					ok := strings.Compare(odp, users.Users[j[i]].ENG)
+					ok := strings.Compare(odp, docs.Docs[j[i]].Ph2)
 
 					if ok == 0 {
 						o++
 					} else {
-						fmt.Println(string("\033[31m"), "powinno być: "+string("\033[36m"), users.Users[j[i]].ENG, string("\033[0m"))
-						s = append(s, users.Users[j[i]].ENG)
+						fmt.Println(string("\033[31m"), "powinno być: "+string("\033[36m"), docs.Docs[j[i]].Ph2, string("\033[0m"))
+						s = append(s, docs.Docs[j[i]].Ph2)
 					}
 				}
 
@@ -176,7 +176,7 @@ func main() {
 				fmt.Println(string("\033[32m"), ".::Rozluźnij się. Przeczytaj wiele razy słowa i zdania. Zapamiętaj!::.\n", string("\033[0m"))
 
 				for i := 0; i < len(j); i++ {
-					fmt.Println(string("\033[36m"), users.Users[j[i]].ENG+string("\033[37m"), "  "+users.Users[j[i]].PL, "  "+string("\033[33m"), users.Users[j[i]].ZDN, string("\033[0m"))
+					fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph2+string("\033[37m"), "  "+docs.Docs[j[i]].Ph1, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
 					fmt.Scanln()
 				}
 				fmt.Println(string("\033[37m"), "\n Były to wszystkie przykłady we wskazanej bazie.", string("\033[0m"))
