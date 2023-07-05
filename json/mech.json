@@ -1,62 +1,61 @@
 {
-    "base": "mechanizmy obronne",
-	"words": [
+    "lib": "mechanizmy obronne",
+	"docs": [
 		{
-			"pl" : "wyparcie",
-			"eng": "repression"
+			"ph1" : "wyparcie",
+			"ph2": "repression"
 		},
 		{
-			"pl" : "kompensacja",
-			"eng": "compensation"
+			"ph1" : "kompensacja",
+			"ph2": "compensation"
 		},
 		{
-			"pl" : "dekompensacja",
-			"eng": "decompensation"
+			"ph1" : "dekompensacja",
+			"ph2": "decompensation"
 		},
 		{
-			"pl" : "przeniesienie",
-			"eng": "transference"
+			"ph1" : "przeniesienie",
+			"ph2": "transference"
 		},
 		{
-			"pl" : "przeciwprzeniesienie",
-			"eng": "countertransference"
+			"ph1" : "przeciwprzeniesienie",
+			"ph2": "countertransference"
 		},
 		{
-			"pl" : "projekcja",
-			"eng": "projection"
+			"ph1" : "projekcja",
+			"ph2": "projection"
 		},
 		{
-			"pl" : "przemieszczenie",
-			"eng": "displacement"
+			"ph1" : "przemieszczenie",
+			"ph2": "displacement"
+		},	
+		{
+			"ph1" : "racjonalizacja",
+			"ph2": "rationalisation"
+		},
+		{	
+			"ph1" : "regresja",
+			"ph2": "regression"
 		},
 		{
-			"pl" : "racjonalizacja",
-			"eng": "rationalisation"
+			"ph1" : "intelektualizacja",
+			"ph2": "intelectualisation"
 		},
 		{
-			
-			"pl" : "regresja",
-			"eng": "regression"
+			"ph1" : "sublimacja",
+			"ph2": "sublimation"
 		},
 		{
-			"pl" : "intelektualizacja",
-			"eng": "intelectualisation"
+			"ph1" : "reakcja upozorowana",
+			"ph2": "reaction formation"
 		},
 		{
-			"pl" : "sublimacja",
-			"eng": "sublimation"
+			"ph1" : "rozszczepienie",
+			"ph2": "splitting out"
 		},
 		{
-			"pl" : "reakcja upozorowana",
-			"eng": "reaction formation"
-		},
-		{
-			"pl" : "rozszczepienie",
-			"eng": "splitting"
-		},
-		{
-			"pl" : "zaprzeczenie",
-			"eng": "denial"
+			"ph1" : "zaprzeczenie",
+			"ph2": "denial"
 		}
 		]
 }
