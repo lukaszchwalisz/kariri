@@ -1,0 +1,108 @@
+{
+	"base": "phrasal verbs 2",
+	"words" :  [
+				{  
+				
+					"pl" : "trzymać się (np. zasad)",
+					"eng": "adhere to",
+					"zdn": "If you refuse to adhere to the rules of the club, you may be expelled."
+				},
+				{
+					"pl" : "być stworzonym dla kogoś/siebie",
+					"eng": "be made for",
+					"zdn": "Mary and Paul seem to be made for each other."
+				},
+				{
+					"pl" : "przełamać coś/ przedrzeć się",
+					"eng": "break through",
+					"zdn": "The soldiers are reported to successfully break through the enemy's trenches."
+				},
+				{
+					"pl" : "zachmurzyć się",
+					"eng": "cloud over",
+					"zdn": "As the sky clouded over, we had to resign from sunbathing that day."
+				},
+				{
+					"pl" : "ostro coś krytykować/ 'zjechać'",
+					"eng": "come down on",
+					"zdn": "The press came down on his new play."
+				},
+				{
+					"pl" : "skreślić, wykreślić",
+					"eng": "cross out",
+					"zdn": "Your essay is too long - cross some sentences out"
+				},
+				{
+					"pl" : "zagłębiać się",
+					"eng": "delve into",
+					"zdn": "I don't want to delve into details concerning his death. It's too painful."
+				},
+				{
+					"pl" : "poświęcać się",
+					"eng": "devote to",
+					"zdn": "She devoted all her life to fighting for human rights."
+				},
+				{
+					"pl" : "pozbywać się",
+					"eng": "do away with",
+					"zdn": "Why don't they do away with all these stupid rules!"
+				},
+				{
+					"pl" : "radzić sobie bez czegoś",
+					"eng": "do without",
+					"zdn": "I'm afraid she'll have to do without my help."
+				},
+				{
+					"pl" : "odwlec, odciągnąć",
+					"eng": "drag away",
+					"zdn": "Drag him away from the TV somehow! He needs more exercise."
+				},
+				{
+					"pl" : "podrzucić kogoś gdzieś po drodze",
+					"eng": "drop off",
+					"zdn": "I'm going to the city centre now, so if you want I can drop you off to the library."
+				},
+				{
+					"pl" : "rezygnować",
+					"eng": "drop out",
+					"zdn": "Sue decided to drop out of school."
+				},
+
+				{
+					"pl" : "zanikać",
+					"eng": "fade away",
+					"zdn": "The ink writing has faded away and now it is barely visible."
+				},
+				{
+					"pl" : "wypełnić, zapełnić",
+					"eng": "fill up",
+					"zdn": "The room was filled up with people."
+				},
+				{
+					"pl" : "przychodzić, przyjeżdżać",
+					"eng": "get in",
+					"zdn": "What time did you get in last night?"
+				},
+				{
+					"pl" : "wykręcać się",
+					"eng": "get out of",
+					"zdn": "I don't feel like going to her parents but I can't get out of it now."
+				},
+				{
+					"pl" : "znaleźć rozwiązanie problemu",
+					"eng": "get over",
+					"zdn": "There were many technical problems but they got over it."
+				},
+				{
+					"pl" : "ominąć problem, znaleźć rozwiązanie",
+					"eng": "get around",
+					"zdn": "We still have to get around the lack of resources."
+				},					
+				{
+					"pl" : "spotykać się",
+					"eng": "get together",
+					"zdn": "Let's get together and talk about it."
+				}
+			]
+}
+

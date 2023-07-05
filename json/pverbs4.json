@@ -1,0 +1,108 @@
+{
+	"base": "phrasal verbs 4",
+	"words" : [
+				{  
+				
+					"pl" : "podgrzać dyskusję",
+					"eng": "heat up",
+					"zdn": "His rude answer heated up the discussion."
+				},
+				{
+					"pl" : "powstrzymać, zatrzymać",
+					"eng": "hold back",
+					"zdn": "Bodyguards had to hold back the crowd as Madonna stepped out of the car."
+				},
+				{
+					"pl" : "czekać chwilę",
+					"eng": "hold on",
+					"zdn": "Hold on a second, I'm almost ready."
+				},
+				{
+					"pl" : "opóźniać",
+					"eng": "hold up",
+					"zdn": "The flight to London was held up due to bad weather conditions."
+				},
+				{
+					"pl" : "podłączyć",
+					"eng": "hook up",
+					"zdn": "Have you hooked up to the Internet yet?"
+				},
+				{
+					"pl" : "pospieczyć się",
+					"eng": "hurry up",
+					"zdn": "Hurry up! We have to be there at 5."
+				},
+				{
+					"pl" : "wyciszyć sprawę",
+					"eng": "hush up",
+					"zdn": "The government will do anything to hush it up as one of the ministers was involved in the case."
+				},
+				{
+					"pl" : "pochłaniać, zagłębiać się",
+					"eng": "immerse in",
+					"zdn": "After having her first baby, she was totally immersed in family life."
+				},
+				{
+					"pl" : "narzucać coś",
+					"eng": "impose sth on/upon",
+					"zdn": "Spanish invaders imposed their culture and beliefs on native Americans."
+				},
+				{
+					"pl" : "wypytywać o coś/badać/dochodzić",
+					"eng": "inquire into",
+					"zdn": "The judge wants the deputy to inquire into the case in greater detail."
+				},
+				{
+					"pl" : "domagać się/upierać się",
+					"eng": "insist on/upon",
+					"zdn": "Lucy insisted on seeing her lawyer before giving any answers to officer's questions."
+				},
+				{
+					"pl" : "zakłócać coś",
+					"eng": "interfere with",
+					"zdn": "I don't want my kids to interfere with any electrical stuff that we have at home."
+				},
+				{
+					"pl" : "kontynuować/robić coś bez przerwy",
+					"eng": "keep on",
+					"zdn": "Why you always keep on asking me about Mark? I don't want to talk about him!"
+				},
+
+				{
+					"pl" : "nadążać, byc na bieżąco",
+					"eng": "keep up with",
+					"zdn": "I can't keep up with computers, it's all changing too fast for me."
+				},
+				{
+					"pl" : "potrącić",
+					"eng": "knock down",
+					"zdn": "She is in hospital after being knocked down by a car."
+				},
+				{
+					"pl" : "zwalać z nóg",
+					"eng": "knock out",
+					"zdn": "All these drinks yesterday just knocked me out."
+				},
+				{
+					"pl" : "zwalniać",
+					"eng": "lay off",
+					"zdn": "Many people working in this factory were laid off without previous notice."
+				},
+				{
+					"pl" : "opuszczać/pomijać",
+					"eng": "leave out",
+					"zdn": "Prepare the list carefully, I don't want anyone to be left out."
+				},
+				{
+					"pl" : "zawodzić",
+					"eng": "let down",
+					"zdn": "You let me down again, I can't trust you any more."
+				},					
+				{
+					"pl" : "wypuszczać/pozwolić iść",
+					"eng": "let out",
+					"zdn": "The classes finished earlier but we were not let out before 3 o'clock."
+				}
+			]
+}
+

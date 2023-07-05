@@ -1,0 +1,62 @@
+{
+    "base": "mechanizmy obronne",
+	"words": [
+		{
+			"pl" : "wyparcie",
+			"eng": "repression"
+		},
+		{
+			"pl" : "kompensacja",
+			"eng": "compensation"
+		},
+		{
+			"pl" : "dekompensacja",
+			"eng": "decompensation"
+		},
+		{
+			"pl" : "przeniesienie",
+			"eng": "transference"
+		},
+		{
+			"pl" : "przeciwprzeniesienie",
+			"eng": "countertransference"
+		},
+		{
+			"pl" : "projekcja",
+			"eng": "projection"
+		},
+		{
+			"pl" : "przemieszczenie",
+			"eng": "displacement"
+		},
+		{
+			"pl" : "racjonalizacja",
+			"eng": "rationalisation"
+		},
+		{
+			
+			"pl" : "regresja",
+			"eng": "regression"
+		},
+		{
+			"pl" : "intelektualizacja",
+			"eng": "intelectualisation"
+		},
+		{
+			"pl" : "sublimacja",
+			"eng": "sublimation"
+		},
+		{
+			"pl" : "reakcja upozorowana",
+			"eng": "reaction formation"
+		},
+		{
+			"pl" : "rozszczepienie",
+			"eng": "splitting"
+		},
+		{
+			"pl" : "zaprzeczenie",
+			"eng": "denial"
+		}
+		]
+}

@@ -1,0 +1,110 @@
+{
+	"base": "phrasal verbs 5",
+	"words" : [
+				{
+					"pl" : "opiekować się/pilnować",
+					"eng": "look after",
+					"zdn": "We need to find someone to look after the kids when we're out tomorrow evening."
+					},
+					{
+                    "pl" : "rozglądać się",
+                    "eng": "look around",
+                    "zdn": "Look around and check if you find something interesting for you."
+					},
+					{
+                    "pl" : "spoglądać w przeszłość",
+                    "eng": "look back",
+                    "zdn": "When I look back, I must admit that I don't regret anything in my life."
+					},
+					{
+                    "pl" : "pogardzać/patrzeć z góry",
+					"eng": "look down on sb",
+					"zdn": "She looks down on people of lower financial status than hers."
+					},
+					{
+                    "pl" : "ustawić się w rzędzie",
+                    "eng": "line up",
+                    "zdn": "She lined up her books on the shelf."
+					},
+					{
+                    "pl" : "bardzo czekać na coś",
+                    "eng": "look forward to",
+					"zdn": "I'm looking forward to hearing from you soon."
+					},
+					{
+                    "pl" : "wynagradzać",
+                    "eng": "make it up to sb",
+                    "zdn": "They helped me so much... I don't know how I am going to make it up to them."
+					},
+					{
+                    "pl" : "myśleć o, sądzić o",
+                    "eng": "make of",
+                    "zdn": "What do you make of Peter? I think he's very intelligent."
+					},
+					{
+                    "pl" : "zrozumieć, dostrzec",
+                    "eng": "make out",
+                    "zdn": "I know this song but they sing so fast that I have never managed to make the words out."
+					},
+					{
+                    "pl" : "pasować, zgadzać się",
+					    "eng": "match up",
+					"zdn": "They will have to be interrogated once again as their stories proved not to match up."
+					},
+					{
+                    "pl" : "topić",
+					"eng": "melt down",
+					"zdn": "Put some butter on the pan and wait till it melts down. Then add onion rings."
+					},
+					{
+                    "pl" : "wtapiać się",
+                    "eng": "merge in",
+                    "zdn": "She watched him for a while but then he merged in the crowd."
+					},
+					{
+                    "pl" : "zadzierac z kimś",
+                    "eng": "mess with sb",
+                    "zdn": "Do not mess with him! He is eager to solve problems with his fists."
+                    },
+                    {
+		    		"pl" : "zmusić/przycisnąć kogoś",
+			    	"eng": "nail down",
+				   	"zdn": "She told us just the news - we will need to nail her down to reveal more details."
+                    },
+					{
+                    "pl" : "zawęzić",
+                    "eng": "narrow down",
+                    "zdn": "We wanted to narrow down the list of candidates for the elections."
+					},
+					{
+                    "pl" : "zapisać",
+                    "eng": "note down",
+                    "zdn": "Please note down the following emergency numbers."
+					},
+					{
+                    "pl" : "sprzeciwiać się",
+                    "eng": "object to",
+                    "zdn": "The President objected to the idea of further cuts in defence spending."
+					},
+					{
+                    "pl" : "podłączyć się do",
+                    "eng": "plug in",
+                    "zdn": "I haven't plugged in the TV yet, I just bought it."
+					},
+					{
+                    "pl" : "wskazać, zwrócić uwagę",
+                    "eng": "point out",
+                    "zdn": "She pointed out common writing mistakes her students should be aware of."
+					},
+					{
+                    "pl" : "szlifować, odświeżyć",
+                    "eng": "polish up",
+                    "zdn": "His Spanish is not bad but he should polish it up a bit."
+					},					
+					{
+                    "pl" : "zburzyć",
+                    "eng": "pull down",
+                    "zdn": "They had to pull down the old building to build a new shopping centre there."
+					}
+            ]
+}

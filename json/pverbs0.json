@@ -1,0 +1,107 @@
+{
+	"base": "phrasal verbs 0",
+	"words" :   [
+				{
+					"pl" : "wskazane,skierowane dla kogoś/czegoś",
+					"eng": "aim at",
+					"zdn": "Most of his books are aimed at teenager readers."
+				},
+				{
+					"pl" : "ręczyć za",
+					"eng": "answer for",
+					"zdn": "I can answer for her qualifications in the field."
+				},
+				{
+					"pl" : "pyskować",
+					"eng": "answer back",
+					"zdn": "How dare you answer back like that?!"
+				},
+				{
+					"pl" : "zaprosić kogoś",
+					"eng": "ask out",
+					"zdn": "Ask her out and then you will know if she likes you or not!"
+				},
+				{
+					"pl" : "wycofać się",
+					"eng": "back out",
+					"zdn": "Make them sign the agreement so that they would not back out from the project."
+				},
+				{
+					"pl" : "liczyć na coś",
+					"eng": "bank on",
+					"zdn": "Tom is very disappointed as he banked on the pay rise and finally he didn't get it."
+				},
+				{
+					"pl" : "wyłamać się",
+					"eng": "break away",
+					"zdn": "He wanted to break away from the traditional image of an artist."
+				},
+				{
+					"pl" : "zepsuć się, załamać się",
+					"eng": "break down",
+					"zdn": "The car broke down after few miles.."
+				},
+				{
+					"pl" : "przywrócić",
+					"eng": "bring back",
+					"zdn": "The photos we watched together brought back a lot of memories."
+				},
+				{
+					"pl" : "obalić",
+					"eng": "bring down",
+					"zdn": "The present acute crisis in economy may bring the government down."
+				},
+				{
+					"pl" : "pochylić",
+					"eng": "bend down",
+					"zdn": "Johnny! Bend down and do your shoelaces."
+				},
+				{
+					"pl" : "zignorować",
+					"eng": "brush aside",
+					"zdn": "He brushed aside his advisor's ideas and consequently lost the campaign."
+				},
+				{
+					"pl" : "wtargnąć",
+					"eng": "burst in",
+					"zdn": "The crowd burst in the palace and started the plunder."
+				},
+
+				{
+					"pl" : "wpaść do kogoś",
+					"eng": "call in",
+					"zdn": "Call in for a cup of coffee when you are in town."
+				},
+				{
+					"pl" : "odwołać",
+					"eng": "call off",
+					"zdn": "They had to call the meeting off because their partners asked for more time."
+				},
+				{
+					"pl" : "opiekować się",
+					"eng": "care for",
+					"zdn": "She cares for her younger sister."
+				},
+				{
+					"pl" : "kontynuować",
+					"eng": "carry on",
+					"zdn": "The light went out but the surgeon insisted on carrying on with the operation."
+				},
+				{
+					"pl" : "zrealizować",
+					"eng": "carry out",
+					"zdn": "I hope she will carry out her research as it may be a real breakthrough."
+				},
+				{
+					"pl" : "dogonić",
+					"eng": "catch up",
+					"zdn": "You will have to work harder in order to catch up with the rest of the team."
+				},					
+				{
+					"pl" : "zrzucić się",
+					"eng": "chip in",
+					"zdn": "We all chipped in for our parents' present."
+				}
+	        ]
+}
+
