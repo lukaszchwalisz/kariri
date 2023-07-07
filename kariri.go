@@ -39,9 +39,9 @@ func CallClear() {
 	}
 }
 
-func lista() {
-	fmt.Println(string("\033[37m"), "  Oto lista dostępnych bibliotek w katalogu /json:", string("\033[0m"))
-	entries, err := os.ReadDir("./json/")
+func list_libs() {
+	fmt.Println(string("\033[37m"), "  Oto lista dostępnych bibliotek w katalogu libs/:", string("\033[0m"))
+	entries, err := os.ReadDir("./libs/")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -68,9 +68,9 @@ func main() {
 	js := os.Args[1:]
 
 	if len(js) == 0 {
-		fmt.Println(string("\033[37m"), "\n   Wymagane jest wprowadzenie nazwy bazy danych z rozszerzeniem *json wraz z lokacją,", string("\033[0m"))
-		fmt.Println("   np.:", string("\033[3m"), "./kariri json/<nazwa_bazy>.json \n", string("\033[0m"))
-		lista()
+		fmt.Println(string("\033[37m"), "\n   Wymagane jest wprowadzenie nazwy bazy danych z rozszerzeniem *json w formacie", string("\033[0m"))
+		fmt.Println("   np.:", string("\033[3m"), "./kariri libs/<nazwa_bazy>.json \n", string("\033[0m"))
+		list_libs()
 	} else {
 
 		js := os.Args[1]
@@ -103,7 +103,7 @@ func main() {
 			j = r.Perm(len(docs.Docs))
 
 			if len(j) == 0 {
-				fmt.Println(string("\033[31m"), "\n   Prawdopodobnie nazwa bazy danych lub katalogu nie została wprowadzona poprawnie.", string("\033[0m"))
+				fmt.Println(string("\033[31m"), "   Prawdopodobnie nazwa bazy danych lub katalogu nie została wprowadzona poprawnie.", string("\033[0m"))
 				os.Exit(0)
 			} else {
 				CallClear()
