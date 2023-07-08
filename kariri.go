@@ -103,7 +103,7 @@ func main() {
 			j = r.Perm(len(docs.Docs))
 
 			if len(j) == 0 {
-				fmt.Println(string("\033[31m"), "  Probably the database or directory name was not entered correctly.", string("\033[0m"))
+				fmt.Println(string("\033[31m"), "  Probably the library or directory name was not entered correctly.", string("\033[0m"))
 				os.Exit(0)
 			} else {
 				CallClear()
