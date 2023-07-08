@@ -8,10 +8,10 @@ The small terminal aplication for learning writen in Go.
 
 **Follow commands:**
 
-'''bash
+```bash
 -  git clone https://github.com/lukaszchwalisz/kariri.git
 -  cd kariri
 -  go run kariri.go libs/<nameoflib>.json
 -  go build
 -  ./kariri  libs/<nameoflib>.json 
-'''
+```
