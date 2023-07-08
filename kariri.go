@@ -68,7 +68,7 @@ func main() {
 	js := os.Args[1:]
 
 	if len(js) == 0 {
-		fmt.Println(string("\033[37m"), "\n  It is required to enter the database name with *json extension", string("\033[0m"))
+		fmt.Println(string("\033[37m"), "\n  It is required to enter the library name with *json extension", string("\033[0m"))
 		fmt.Println("  e.g.:", string("\033[3m"), "./kariri libs/the_name_of_lib.json \n", string("\033[0m"))
 		list_libs()
 	} else {
