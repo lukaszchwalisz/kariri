@@ -8,10 +8,9 @@ The small terminal aplication for learning writen in Go.
 - follow commands:
 
 
-'''
-  git clone https://github.com/lukaszchwalisz/kariri.git
-  cd kariri
-  go run kariri.go libs/<nameoflib>.json
-  go build
-  ./kariri  libs/<nameoflib>.json 
-'''
+
+-  git clone https://github.com/lukaszchwalisz/kariri.git
+-  cd kariri
+-  go run kariri.go libs/<nameoflib>.json
+-  go build
+-  ./kariri  libs/<nameoflib>.json 
