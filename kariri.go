@@ -40,7 +40,7 @@ func CallClear() {
 }
 
 func list_libs() {
-	fmt.Println(string("\033[37m"), "  Here is a list of the available libraries in the libs/ directory:", string("\033[0m"))
+	fmt.Println(string("\033[37m"), " Here is a list of the available libraries in the libs/ directory:", string("\033[0m"))
 	entries, err := os.ReadDir("./libs/")
 	if err != nil {
 		log.Fatal(err)
