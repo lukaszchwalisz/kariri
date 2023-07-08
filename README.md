@@ -5,9 +5,8 @@ The small terminal aplication for learning writen in Go.
 
 - install Golang from the official website: https://go.dev/dl/
 - depedencies: git
-- follow commands:
 
-
+**Follow commands:**
 
 -  git clone https://github.com/lukaszchwalisz/kariri.git
 -  cd kariri
