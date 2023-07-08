@@ -129,7 +129,7 @@ func main() {
 
 			case 'q':
 				// CallClear()
-				fmt.Println(string("\033[33m"), "\n.:: Thank you and welcome again :) ::.", string("\033[0m"))
+				fmt.Println(string("\033[33m"), "\n.:: Thank you and wait to see you again :) ::.", string("\033[0m"))
 				os.Exit(0)
 
 			case 'b':
