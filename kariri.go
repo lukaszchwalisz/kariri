@@ -35,12 +35,12 @@ func CallClear() {
 	if ok {
 		value()
 	} else {
-		panic("Platforma nie jest wspierana. Nie mogę wyczyścić ekranu terminala.")
+		panic("The platform is not supported. I am unable to clear the terminal screen.")
 	}
 }
 
 func list_libs() {
-	fmt.Println(string("\033[37m"), "  Oto lista dostępnych bibliotek w katalogu libs/:", string("\033[0m"))
+	fmt.Println(string("\033[37m"), "  Here is a list of the available libraries in the libs/ directory:", string("\033[0m"))
 	entries, err := os.ReadDir("./libs/")
 	if err != nil {
 		log.Fatal(err)
@@ -68,8 +68,8 @@ func main() {
 	js := os.Args[1:]
 
 	if len(js) == 0 {
-		fmt.Println(string("\033[37m"), "\n   Wymagane jest wprowadzenie nazwy bazy danych z rozszerzeniem *json w formacie", string("\033[0m"))
-		fmt.Println("   np.:", string("\033[3m"), "./kariri libs/<nazwa_bazy>.json \n", string("\033[0m"))
+		fmt.Println(string("\033[37m"), "\n  It is required to enter the database name with *json extension", string("\033[0m"))
+		fmt.Println("  e.g.:", string("\033[3m"), "./kariri libs/the_name_of_lib.json \n", string("\033[0m"))
 		list_libs()
 	} else {
 
@@ -103,19 +103,19 @@ func main() {
 			j = r.Perm(len(docs.Docs))
 
 			if len(j) == 0 {
-				fmt.Println(string("\033[31m"), "   Prawdopodobnie nazwa bazy danych lub katalogu nie została wprowadzona poprawnie.", string("\033[0m"))
+				fmt.Println(string("\033[31m"), "  Probably the database or directory name was not entered correctly.", string("\033[0m"))
 				os.Exit(0)
 			} else {
 				CallClear()
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), "Biblioteka: ", string("\033[0m")+docs.Lib)
-				fmt.Print(string("\033[32m"), " "+"Liczba słów: ", string("\033[0m"))
+				fmt.Println(string("\033[32m"), "Library: ", string("\033[0m")+docs.Lib)
+				fmt.Print(string("\033[32m"), " "+"Number of words: ", string("\033[0m"))
 				fmt.Printf("%v \n\n", len(j))
 			}
 
-			fmt.Println(string("\033[31m"), "a:"+string("\033[37m"), "Zapamiętaj", string("\033[0m"))
-			fmt.Println(string("\033[31m"), "b:"+string("\033[37m"), "Sprawdź się\n", string("\033[0m"))
-			fmt.Println(string("\033[31m"), "q:"+string("\033[37m"), "Wyjście\n", string("\033[0m"))
+			fmt.Println(string("\033[31m"), "a:"+string("\033[37m"), "Remember", string("\033[0m"))
+			fmt.Println(string("\033[31m"), "b:"+string("\033[37m"), "Check\n", string("\033[0m"))
+			fmt.Println(string("\033[31m"), "q:"+string("\033[37m"), "Quit\n", string("\033[0m"))
 
 			fmt.Print(">> ")
 			reader := bufio.NewReader(os.Stdin)
@@ -129,13 +129,13 @@ func main() {
 
 			case 'q':
 				// CallClear()
-				fmt.Println(string("\033[33m"), "\n.:: Dziękuję i zapraszam ponownie :) ::.", string("\033[0m"))
+				fmt.Println(string("\033[33m"), "\n.:: Thank you and welcome again :) ::.", string("\033[0m"))
 				os.Exit(0)
 
 			case 'b':
 				CallClear()
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), ".::Sprawdź swoją wiedzę. Zobacz słowa, które sprawiają problemy. Powtórz raz jeszcze.::.\n", string("\033[0m"))
+				fmt.Println(string("\033[32m"), ".::Test your knowledge. See the words that cause problems. Repeat once more.::.\n", string("\033[0m"))
 
 				j = r.Perm(len(docs.Docs))
 
@@ -153,14 +153,14 @@ func main() {
 					if ok == 0 {
 						o++
 					} else {
-						fmt.Println(string("\033[31m"), "powinno być: "+string("\033[36m"), docs.Docs[j[i]].Ph2, string("\033[0m"))
+						fmt.Println(string("\033[31m"), "should be: "+string("\033[36m"), docs.Docs[j[i]].Ph2, string("\033[0m"))
 						s = append(s, docs.Docs[j[i]].Ph2)
 					}
 				}
 
 				fmt.Printf("\n")
-				fmt.Printf("Liczba prawidłowych odpowiedzi: %v / %v\n", o, len(j))
-				fmt.Print("Powtórz słowa:\n")
+				fmt.Printf("Number of correct answers: %v / %v\n", o, len(j))
+				fmt.Print("Repeat the words:\n")
 				for i := 0; i < len(s); i++ {
 					fmt.Printf("- %v\n", s[i])
 				}
@@ -173,22 +173,19 @@ func main() {
 			case 'a':
 				CallClear()
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), ".::Rozluźnij się. Przeczytaj wiele razy słowa i zdania. Zapamiętaj!::.\n", string("\033[0m"))
 
 				for i := 0; i < len(j); i++ {
 					fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph2+string("\033[37m"), "  "+docs.Docs[j[i]].Ph1, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
 					fmt.Scanln()
 				}
-				fmt.Println(string("\033[37m"), "\n Były to wszystkie przykłady we wskazanej bazie.", string("\033[0m"))
+				fmt.Println(string("\033[37m"), "\n These were all the examples in the indicated database.", string("\033[0m"))
 				fmt.Scanln()
 			default:
 				fmt.Printf("\033[1A\033[K")
-				fmt.Println(">> Niezrozumiałe polecenie. Spróbuj raz jeszcze.")
+				fmt.Println(">> Incomprehensible command. Try again.")
 				fmt.Scanln()
 			}
 
 		}
 	}
 }
-
-// Zastosowanie keyloggera w opcji menu
