@@ -2,115 +2,114 @@
 	"lib": "parole semplici",
 	"docs" : [
 				{
-					"ph1": "Dzień dobry",
-					"ph2": "Buon giorno",
-					"ph3": "błon dżorno"
-					},
-					{
-                    "ph1": "Dobry wieczór",
-                    "ph2": "Bouna sera",
-                    "ph3": "błona sera"
-					},
-					{
-                    "ph1": "Dobranoc",
-                    "ph2": "Buona notte",
-                    "ph3": "błona notte"
-					},
-					{
-                    "ph1": "Do widzenia",
-					"ph2": "Arrivederci",
-					"ph3": "arriwederczi"
-					},
-					{
-                    "ph1": "Do jutra",
-                    "ph2": "A domani",
-                    "ph3": "adomani"
-					},
-					{
-                    "ph1": "Proszę",
-                    "ph2": "Prego",
-					"ph3": "prego"
-					},
-					{
-                    "ph1": "Dziękuję bardzo",
-                    "ph2": "Grazie tante",
-                    "ph3": "gracje tante"
-					},
-					{
-                    "ph1": "Przepraszam",
-                    "ph2": "Chiedo scusa",
-                    "ph3": "kjedo skuza"
-					},
-					{
-                    "ph1": "Nic nie szkodzi",
-                    "ph2": "Fa niente",
-                    "ph3": "fanjente"
-					},
-					{
-                    "ph1": "Bardzo mi miło",
-					"ph2": "Piacere",
-					"ph3": "piaczere"
-					},
-					{
-                    "ph1": "Jak leci ?",
-					"ph2": "Come sta?",
-					"ph3": "kome sta"
-					},
-					{
-                    "ph1": "Dziękuję, dobrze",
-                    "ph2": "Grazie, bene",
-                    "ph3": "gracje bene"
-					},
-					{
-                    "ph1": "Doskonale",
-                    "ph2": "Benissimo",
-                    "ph3": "be'nissiomo"
-                    },
-                    {
-		    		"ph1": "Tak/Nie",
-			    	"ph2": "Si No",
-				   	"ph3": "si, no"
-                    },
-					{
-                    "ph1": "Kiedy ?",
-                    "ph2": "Quando?",
-                    "ph3": "kłando"
-					},
-					{
-                    "ph1": "Ile?",
-                    "ph2": "Quanto?",
-                    "ph3": "kłanto"
-					},
-					{
-                    "ph1": "Nazywam się",
-                    "ph2": "Mi chiamo",
-                    "ph3": "mi kjamo"
-					},
-					{
-                    "ph1": "Czy mówi Pan/Pani po angielsku",
-                    "ph2": "Parla inglese",
-                    "ph3": "parla ingleze"
-					},
-					{
-                    "ph1": "Przybywam z Polski",
-                    "ph2": "Vengo dalla Polonia",
-                    "ph3": "wengo dalla polonia"
-					},
-					{
-                    "ph1": "Nie rozumiem",
-                    "ph2": "Non capisco",
-                    "ph3": "non kapisko"
-					},					
-					{
-                    "ph1": "Nie wiem",
-                    "ph2": "Non lo'so",
-                    "ph3": "non lo'so"
-					},
-                    {
-                    "ph1": "Nie moge",
-                    "ph2": "Non posso",
-                    "ph3": "non posso"
-					}
-
+                "ph1": "Dzień dobry",
+                "ph2": "Buon giorno",
+                "ph3": "błon dżorno"
+                },
+                {
+                "ph1": "Dobry wieczór",
+                "ph2": "Bouna sera",
+                "ph3": "błona sera"
+                },
+                {
+                "ph1": "Dobranoc",
+                "ph2": "Buona notte",
+                "ph3": "błona notte"
+                },
+                {
+                "ph1": "Do widzenia",
+                "ph2": "Arrivederci",
+                "ph3": "arriwederczi"
+                },
+                {
+                "ph1": "Do jutra",
+                "ph2": "A domani",
+                "ph3": "adomani"
+                },
+                {
+                "ph1": "Proszę",
+                "ph2": "Prego",
+                "ph3": "prego"
+                },
+                {
+                "ph1": "Dziękuję bardzo",
+                "ph2": "Grazie tante",
+                "ph3": "gracje tante"
+                },
+                {
+                "ph1": "Przepraszam",
+                "ph2": "Chiedo scusa",
+                "ph3": "kjedo skuza"
+                },
+                {
+                "ph1": "Nic nie szkodzi",
+                "ph2": "Fa niente",
+                "ph3": "fanjente"
+                },
+                {
+                "ph1": "Bardzo mi miło",
+                "ph2": "Piacere",
+                "ph3": "piaczere"
+                },
+                {
+                "ph1": "Jak leci ?",
+                "ph2": "Come sta?",
+                "ph3": "kome sta"
+                },
+                {
+                "ph1": "Dziękuję, dobrze",
+                "ph2": "Grazie, bene",
+                "ph3": "gracje bene"
+                },
+                {
+                "ph1": "Doskonale",
+                "ph2": "Benissimo",
+                "ph3": "be'nissiomo"
+                },
+                {
+                "ph1": "Tak/Nie",
+                "ph2": "Si No",
+                "ph3": "si, no"
+                },
+                {
+                "ph1": "Kiedy ?",
+                "ph2": "Quando?",
+                "ph3": "kłando"
+                },
+                {
+                "ph1": "Ile?",
+                "ph2": "Quanto?",
+                "ph3": "kłanto"
+                },
+                {
+                "ph1": "Nazywam się",
+                "ph2": "Mi chiamo",
+                "ph3": "mi kjamo"
+                },
+                {
+                "ph1": "Czy mówi Pan/Pani po angielsku",
+                "ph2": "Parla inglese",
+                "ph3": "parla ingleze"
+                },
+                {
+                "ph1": "Przybywam z Polski",
+                "ph2": "Vengo dalla Polonia",
+                "ph3": "wengo dalla polonia"
+                },
+                {
+                "ph1": "Nie rozumiem",
+                "ph2": "Non capisco",
+                "ph3": "non kapisko"
+                },					
+                {
+                "ph1": "Nie wiem",
+                "ph2": "Non lo'so",
+                "ph3": "non lo'so"
+                },
+                {
+                "ph1": "Nie moge",
+                "ph2": "Non posso",
+                "ph3": "non posso"
+                }
             ]
 }
