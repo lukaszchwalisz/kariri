@@ -175,7 +175,7 @@ func main() {
 				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
 
 				for i := 0; i < len(j); i++ {
-					fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph2+string("\033[37m"), "  "+docs.Docs[j[i]].Ph1, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
+					fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph1+string("\033[37m"), "  "+docs.Docs[j[i]].Ph2, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
 					fmt.Scanln()
 				}
 				fmt.Println(string("\033[37m"), "\n These were all the examples in the indicated database.", string("\033[0m"))
