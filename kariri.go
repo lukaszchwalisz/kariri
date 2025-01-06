@@ -147,7 +147,7 @@ func main() {
 				fmt.Print(string(" \033[37m"), docs.Docs[j[i]].Ph1+string("\033[36m"), " --> ")
 				reader := bufio.NewReader(os.Stdin)
 				odp, _ := reader.ReadString('\n')
-				odp = strings.TrimSuffix(odp, "\n")
+				odp = strings.TrimSpace(odp)
 				if err != nil {
 					fmt.Println(err)
 				}
