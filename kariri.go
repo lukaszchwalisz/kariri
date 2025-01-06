@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"math/rand"
 	"os"
@@ -83,7 +83,10 @@ func main() {
 
 		defer jsonFile.Close()
 
-		byteValue, _ := ioutil.ReadAll(jsonFile)
+		byteValue, err := io.ReadAll(jsonFile)
+		if err != nil {
+			log.Fatalf("Failed to read file: %v", err)
+		}
 
 		var docs Docs
 
