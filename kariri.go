@@ -65,130 +65,130 @@ type Doc struct {
 
 func main() {
 
-	js := os.Args[1:]
+	no_js := os.Args[1:]
 
-	if len(js) == 0 {
+	if len(no_js) == 0 {
 		fmt.Println(string("\033[37m"), "\n  It is required to enter the library name with *json extension", string("\033[0m"))
 		fmt.Println("  e.g.:", string("\033[3m"), "./kariri libs/the_name_of_lib.json \n", string("\033[0m"))
 		list_libs()
-	} else {
+	}
 
-		js := os.Args[1]
+	js := os.Args[1]
 
-		jsonFile, err := os.Open(js)
+	jsonFile, err := os.Open(js)
+
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	defer jsonFile.Close()
+
+	byteValue, err := io.ReadAll(jsonFile)
+	if err != nil {
+		log.Fatalf("Failed to read file: %v", err)
+	}
+
+	var docs Docs
+
+	var (
+		o int
+		j []int
+		s []string
+	)
+
+	// Losowanie, mieszanie :)
+	r := rand.New(rand.NewSource(time.Now().Unix()))
+	json.Unmarshal(byteValue, &docs)
+
+	// START PROGRAMU: KARIRI
+	for {
+
+		j = r.Perm(len(docs.Docs))
+
+		if len(j) == 0 {
+			fmt.Println(string("\033[31m"), "  Probably the library or directory name was not entered correctly.", string("\033[0m"))
+			os.Exit(0)
+		} else {
+			CallClear()
+			fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
+			fmt.Println(string("\033[32m"), "Library: ", string("\033[0m")+docs.Lib)
+			fmt.Print(string("\033[32m"), " "+"Number of words: ", string("\033[0m"))
+			fmt.Printf("%v \n\n", len(j))
+		}
+
+		fmt.Println(string("\033[31m"), "a:"+string("\033[37m"), "Remember", string("\033[0m"))
+		fmt.Println(string("\033[31m"), "b:"+string("\033[37m"), "Check\n", string("\033[0m"))
+		fmt.Println(string("\033[31m"), "q:"+string("\033[37m"), "Quit\n", string("\033[0m"))
+
+		fmt.Print(">> ")
+		reader := bufio.NewReader(os.Stdin)
+		sw, err := reader.ReadByte()
 
 		if err != nil {
 			fmt.Println(err)
 		}
 
-		defer jsonFile.Close()
+		switch sw {
 
-		byteValue, err := io.ReadAll(jsonFile)
-		if err != nil {
-			log.Fatalf("Failed to read file: %v", err)
-		}
+		case 'q':
+			// CallClear()
+			fmt.Println(string("\033[33m"), "\n.:: Thank you and wait to see you again :) ::.", string("\033[0m"))
+			os.Exit(0)
 
-		var docs Docs
-
-		var (
-			o int
-			j []int
-			s []string
-		)
-
-		// Losowanie, mieszanie :)
-		r := rand.New(rand.NewSource(time.Now().Unix()))
-		json.Unmarshal(byteValue, &docs)
-
-		// START PROGRAMU: KARIRI
-		for {
+		case 'b':
+			CallClear()
+			fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
+			fmt.Println(string("\033[32m"), ".::Test your knowledge. See the words that cause problems. Repeat once more.::.\n", string("\033[0m"))
 
 			j = r.Perm(len(docs.Docs))
 
-			if len(j) == 0 {
-				fmt.Println(string("\033[31m"), "  Probably the library or directory name was not entered correctly.", string("\033[0m"))
-				os.Exit(0)
-			} else {
-				CallClear()
-				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), "Library: ", string("\033[0m")+docs.Lib)
-				fmt.Print(string("\033[32m"), " "+"Number of words: ", string("\033[0m"))
-				fmt.Printf("%v \n\n", len(j))
+			for i := 0; i < len(j); i++ {
+
+				fmt.Print(string(" \033[37m"), docs.Docs[j[i]].Ph1+string("\033[36m"), " --> ")
+				reader := bufio.NewReader(os.Stdin)
+				odp, _ := reader.ReadString('\n')
+				odp = strings.TrimSuffix(odp, "\n")
+				if err != nil {
+					fmt.Println(err)
+				}
+				ok := strings.Compare(odp, docs.Docs[j[i]].Ph2)
+
+				if ok == 0 {
+					o++
+				} else {
+					fmt.Println(string("\033[31m"), "should be: "+string("\033[36m"), docs.Docs[j[i]].Ph2, string("\033[0m"))
+					s = append(s, docs.Docs[j[i]].Ph2)
+				}
 			}
 
-			fmt.Println(string("\033[31m"), "a:"+string("\033[37m"), "Remember", string("\033[0m"))
-			fmt.Println(string("\033[31m"), "b:"+string("\033[37m"), "Check\n", string("\033[0m"))
-			fmt.Println(string("\033[31m"), "q:"+string("\033[37m"), "Quit\n", string("\033[0m"))
-
-			fmt.Print(">> ")
-			reader := bufio.NewReader(os.Stdin)
-			sw, err := reader.ReadByte()
-
-			if err != nil {
-				fmt.Println(err)
+			fmt.Printf("\n")
+			fmt.Printf("Number of correct answers: %v / %v\n", o, len(j))
+			fmt.Print("Repeat the words:\n")
+			for i := 0; i < len(s); i++ {
+				fmt.Printf("- %v\n", s[i])
 			}
 
-			switch sw {
+			s = nil
+			j = nil
+			o = 0
+			fmt.Scanln()
 
-			case 'q':
-				// CallClear()
-				fmt.Println(string("\033[33m"), "\n.:: Thank you and wait to see you again :) ::.", string("\033[0m"))
-				os.Exit(0)
+		case 'a':
+			CallClear()
+			fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
 
-			case 'b':
-				CallClear()
-				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-				fmt.Println(string("\033[32m"), ".::Test your knowledge. See the words that cause problems. Repeat once more.::.\n", string("\033[0m"))
-
-				j = r.Perm(len(docs.Docs))
-
-				for i := 0; i < len(j); i++ {
-
-					fmt.Print(string(" \033[37m"), docs.Docs[j[i]].Ph1+string("\033[36m"), " --> ")
-					reader := bufio.NewReader(os.Stdin)
-					odp, _ := reader.ReadString('\n')
-					odp = strings.TrimSuffix(odp, "\n")
-					if err != nil {
-						fmt.Println(err)
-					}
-					ok := strings.Compare(odp, docs.Docs[j[i]].Ph2)
-
-					if ok == 0 {
-						o++
-					} else {
-						fmt.Println(string("\033[31m"), "should be: "+string("\033[36m"), docs.Docs[j[i]].Ph2, string("\033[0m"))
-						s = append(s, docs.Docs[j[i]].Ph2)
-					}
-				}
-
-				fmt.Printf("\n")
-				fmt.Printf("Number of correct answers: %v / %v\n", o, len(j))
-				fmt.Print("Repeat the words:\n")
-				for i := 0; i < len(s); i++ {
-					fmt.Printf("- %v\n", s[i])
-				}
-
-				s = nil
-				j = nil
-				o = 0
-				fmt.Scanln()
-
-			case 'a':
-				CallClear()
-				fmt.Println(string("\033[33m"), ".::K:A:R:i:R:I::.\n", string("\033[0m"))
-
-				for i := 0; i < len(j); i++ {
-					fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph1+string("\033[37m"), "  "+docs.Docs[j[i]].Ph2, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
-					fmt.Scanln()
-				}
-				fmt.Println(string("\033[37m"), "\n These were all the examples in the indicated database.", string("\033[0m"))
-				fmt.Scanln()
-			default:
-				fmt.Printf("\033[1A\033[K")
-				fmt.Println(">> Incomprehensible command. Try again.")
+			for i := 0; i < len(j); i++ {
+				fmt.Println(string("\033[36m"), docs.Docs[j[i]].Ph1+string("\033[37m"), "  "+docs.Docs[j[i]].Ph2, "  "+string("\033[33m"), docs.Docs[j[i]].Ph3, string("\033[0m"))
 				fmt.Scanln()
 			}
-
+			fmt.Println(string("\033[37m"), "\n These were all the examples in the indicated database.", string("\033[0m"))
+			fmt.Scanln()
+		default:
+			fmt.Printf("\033[1A\033[K")
+			fmt.Println(">> Incomprehensible command. Try again.")
+			fmt.Scanln()
 		}
+
 	}
+
 }
